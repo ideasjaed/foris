@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.header-game {
+    display: flex;
+    justify-content: space-between;
+    .text-counter {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: $black;
+        font-family: $primary-font;
+    }
+}

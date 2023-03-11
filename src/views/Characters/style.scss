@@ -1,0 +1,43 @@
+@import '../../styles/variables';
+
+
+.title-characters {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: $black;
+    font-family: $primary-font;
+}
+.container-grid {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+.btn-play {
+    margin: 0 auto;
+    margin-top: 48px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: $blue;
+    width: 240px;
+    border-width: 0px 0px 4px 4px;
+    border-style: solid;
+    border-color: $lime;
+    box-shadow: $shadow-btn;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    a {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+        font-family: $primary-font;
+        color: $blue-dark;
+        text-decoration: none;
+    }
+}
