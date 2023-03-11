@@ -1,3 +1,6 @@
+<p align="center">
+    <img alt="logo" src="https://user-images.githubusercontent.com/6529706/224460908-ca6757ef-3938-4354-ab9d-66bafa62f296.png" width="80" />
+</p>
 
 <h1 align="center">
   Prueba Tecnica Foris
