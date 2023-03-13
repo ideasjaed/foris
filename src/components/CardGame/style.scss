@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+
+.back-side {
+    background-color: $blue;
+    box-shadow: $shadow-card;
+    border-radius: 8px;
+    height: auto;
+    img {
+        max-width: 100%;
+        width: auto;
+        border-radius: 8px;
+    }
+}
+
+.front-side {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: $white;
+    box-shadow: $shadow-card;
+    height: auto;
+    img {
+        max-width: 100%;
+        width: auto;
+        border-radius: 8px;
+    }
+}

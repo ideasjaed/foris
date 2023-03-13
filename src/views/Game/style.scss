@@ -11,3 +11,12 @@
         font-family: $primary-font;
     }
 }
+
+.container-game {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}

@@ -17,7 +17,14 @@
     grid-row-gap: 16px;
 }
 
-.btn-play {
+a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    font-family: $primary-font;
+    color: $blue-dark;
+    text-decoration: none;
     margin: 0 auto;
     margin-top: 48px;
     padding: 16px;
@@ -31,13 +38,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    a {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.1em;
-        font-family: $primary-font;
-        color: $blue-dark;
-        text-decoration: none;
+    &:hover {
+        background-color: $blue-hover;
     }
 }

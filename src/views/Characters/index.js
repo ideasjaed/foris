@@ -29,9 +29,7 @@ const index = () => {
                 return <CardPrimary key={character.id} image={character.image} name={character.name} status={character.status} species={character.species} />
             })}
         </div>
-        <div className='btn-play'>
-            <Link to="/game">Jugar</Link>
-        </div>
+        <Link to="/game">Jugar</Link>
     </Layout>
   )
 }
